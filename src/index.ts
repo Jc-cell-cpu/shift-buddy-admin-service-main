@@ -30,7 +30,7 @@ app.use(cors({
     credentials: true // allow cookies if needed
 }))
 // UserRoutes
-app.use('/user/v1', userRoutes);
+app.use('/admin/v1', userRoutes);
 //CarrierRoutes
 app.use('/carrier/v1', carrierRoutes);
 //CarrierRoutes
